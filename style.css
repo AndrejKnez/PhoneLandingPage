@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+img{
+    vertical-align: bottom;
+}
+
+#wrapper{
+    width: 100%;
+}
+.top{
+    display: flex;
+    margin-bottom: 70px;
+    border-bottom: 2px solid rgba(186, 194, 188)    ;
+}
+
+
+
+
+.leftTop{
+
+    width:673px;
+    height: 600px;
+    position: relative;
+    
+}
+
+.topRight{
+
+    position: relative;
+
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    height: 673px;
+    background-image: url("images/Rectangle\ 276.png");
+    opacity: 0.71;
+    
+}
+.butterfly{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    opacity: 100%;
+    
+}
+
+
+.title{
+    position: absolute;
+    height: 97px ;
+    width: 350px;
+    top: 244px;
+    left: 100px;
+}
+
+.title h1{
+    color: #FFF;
+    font-size: 43px;
+    letter-spacing: 0;
+    text-align: left;
+    font-weight: 43px;
+
+}
+
+.title p{
+    text-align: left;
+    width:322px;
+    height: 43px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 24px;
+}
+
+.services{
+    display: flex;
+    position: absolute;
+    top: 417px;
+    left: 101px;
+    width: 140px;
+    height: 17px;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+}
+
+.services p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content:flex-end;
+    margin-right: 50px;
+    width: 827px;
+    
+}
+.navbar li a{
+    display: block;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbar li a:hover{
+    color: #085CF6;
+}
+.ourWork{
+    display: flex;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.ourWork h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.rightcontent{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+
+}
+
+.contentp{
+    width: 300px;
+    color: black;
+    opacity:0.8;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.projects p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ourWork img{
+    width: 40px;
+    height: 40px;
+    padding: auto;
+}
+
+.servicesmain{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.servicesmain p {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main{
+    margin-bottom: 150px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content img{
+    margin-bottom: 20px;
+}
+.contenttitle{
+
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.leftcontent{
+    flex-basis: 220px;
+}
+
+.centercontent{
+    flex-basis: 250px;
+}
+
+.Rightcontent{
+    flex-basis: 250px;
+}
+
+.contenttext{
+    line-height: 25px;
+    opacity: 0.9;
+}
+
+.topcontact{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.topcontact p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 450px 0 50px;
+
+}
+
+.contactbottom{
+    flex-basis: 450px;
+    margin-top: 100px;
+    justify-content: space-around;
+    
+}
+
+.contactp{
+    margin-left: 40px;
+    line-height: 25px;
+    color: #000;
+    opacity: 0.9;
+}
+
+#footer{
+    background: #262626;
+    
+}
+
+.navbar-footer{
+    display: flex;
+    list-style: none;
+   
+}
+
+.navbar-footer a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0 15px;
+    opacity: 0.7;
+
+}
+
+.footertop{
+    border-bottom: 2px solid #707070;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.footerleft{
+    flex-grow: 1;
+    
+    
+}
+
+
+
+.footercenter{
+    flex-grow: 2;
+}
+
+
+.footerright{
+    flex-grow: 1;
+    color: #FFF;
+    opacity: 0.7;
+    
+}
+
+.footerbottom{
+    padding: 30px 50px 15px ;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+
